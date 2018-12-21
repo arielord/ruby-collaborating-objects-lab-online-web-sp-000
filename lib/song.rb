@@ -12,5 +12,6 @@ class Song
     artist_name = file_parse[0]
     song = Song.new(song_name)
     song.artist = artist_name
+    song
   end
 end
