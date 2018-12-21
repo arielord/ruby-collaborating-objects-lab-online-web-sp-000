@@ -13,6 +13,7 @@ class Song
     song = Song.new(song_name)
     
     associated_artist = Artist.new(artist_name)
+    associated_artist.song
     associated_artist.save
     
     song.artist = associated_artist
